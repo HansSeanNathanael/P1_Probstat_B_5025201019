@@ -94,3 +94,27 @@ d.
 ![3.d](images/3_d.png)
 
 Nilai rata-rata telah diketahui dari soal yaitu 6 dan variansi Poisson sama dengan rata-ratanya. Rata-rata dan variansi tidak diambil dari hasil generate random karena tidak ada keterangan harus mengambil dari hasil generate.
+
+### 4.
+a.
+
+![4.a](images/4_a_function.png)
+
+PDF chi square
+
+b.
+
+![4.b](images/4_b.png)
+
+![4.b.hist](images/4_b_hist.png)
+
+histogram 100 data random chi square dengan degree of freedom = 10
+
+c.
+
+![4.d.mv](images/4_c_mean_variance.png)
+
+![4.d](images/4_c.png)
+
+rata-rata sama dengan degree of freedom dan variansinya adalah 2 kali degree of freedom
+
