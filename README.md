@@ -118,3 +118,33 @@ c.
 
 rata-rata sama dengan degree of freedom dan variansinya adalah 2 kali degree of freedom
 
+### 5.
+a.
+
+![5.a](images/5_a_function.png)
+
+PDF distribusi exponensial dengan asumsi lambda adalah rate
+
+b.
+
+![5.b.10](images/5_b_10.png)
+
+adalah histogram distribusi exponensial 10 data random
+
+![5.b.100](images/5_b_100.png)
+
+adalah histogram distribusi exponensial 100 data random
+
+![5.b.1000](images/5_b_1000.png)
+
+adalah histogram distribusi exponensial 1000 data random
+
+![5.b.10000](images/5_b_10000.png)
+
+adalah histogram distribusi exponensial 10000 data random
+
+c.
+
+![5.c](images/5_c.png)
+
+rata-rata dan variansi distribusi exponential dari 100 data random 
