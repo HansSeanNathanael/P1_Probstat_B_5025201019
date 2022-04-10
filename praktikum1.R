@@ -24,7 +24,7 @@ hist(px, breaks = max(data), ylim = c(0, 5000), main = "Frekuensi X = 3")
 
 #e
 
-mean <- 1/p
+mean <- q/p
 variance <- q/(p^2)
 
 paste("mean: ", mean)
