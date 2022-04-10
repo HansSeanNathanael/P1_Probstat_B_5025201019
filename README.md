@@ -65,3 +65,32 @@ c.
 ![2.c](images/2_c.png)
 
 rata-rata terdapat 4 pasien yang sembuh dengan variansi 3,2
+
+### 3.
+a.
+
+![3.a](images/3_a.png)
+
+adalah nilai peluang 6 bayi akan lahir di rumah sakit tersebut besok. Nilai didapatkan dari fungsi dpois()
+
+b.
+
+![3.b](images/3_b.png)
+
+![3.b](images/3_b_hist.png)
+
+adalah total hari dalam 1 tahun di mana pada hari tersebut lahir 6 bayi, totalnya adalah 45 hari
+
+c. 
+
+![3.c](images/3_c.png)
+
+dapat diperhatikan bahwa hasil poin b lebih kecil dari pada hasil poin a tetapi mendekati hasil poin a dengan perbedaan 0.048
+
+d.
+
+![3.d.mv](images/3_d_mean_variance.png)
+
+![3.d](images/3_d.png)
+
+Nilai rata-rata telah diketahui dari soal yaitu 6 dan variansi Poisson sama dengan rata-ratanya. Rata-rata dan variansi tidak diambil dari hasil generate random karena tidak ada keterangan harus mengambil dari hasil generate.
