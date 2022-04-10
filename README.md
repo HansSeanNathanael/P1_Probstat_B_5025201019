@@ -60,7 +60,7 @@ adalah histogram peluang jumlah pasien yang sembuh dengan grafik x adalah jumlah
 
 c.
 
-![2.c.mv](2_c_mean_variance.png)
+![2.c.mv](images/2_c_mean_variance.png)
 
 ![2.c](images/2_c.png)
 
