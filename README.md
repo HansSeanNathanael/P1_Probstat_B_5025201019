@@ -98,9 +98,13 @@ Nilai rata-rata telah diketahui dari soal yaitu 6 dan variansi Poisson sama deng
 ### 4.
 a.
 
-![4.a](images/4_a_function.png)
+![4.a.pdf](images/4_a_pdf.png)
 
 PDF chi square
+
+![4.a.function probability](images/4_a_function_probability.png)
+
+Peluang distribusi Chi Square
 
 b.
 
@@ -121,9 +125,13 @@ rata-rata sama dengan degree of freedom dan variansinya adalah 2 kali degree of 
 ### 5.
 a.
 
-![5.a](images/5_a_function.png)
+![5.a.pdf](images/5_a_pdf.png)
 
 PDF distribusi exponensial dengan asumsi lambda adalah rate
+
+![5.a.pdf](images/5_a_function_probability.png)
+
+Peluang distribusi exponensial 
 
 b.
 
@@ -147,4 +155,31 @@ c.
 
 ![5.c](images/5_c.png)
 
-rata-rata dan variansi distribusi exponential dari 100 data random 
+rata-rata dan variansi distribusi exponential dari 100 data random
+
+### 6.
+a.
+
+![6.a.pdf](images/6_a_pdf.png)
+
+PDF distribusi normal
+
+![6.a.pdf](images/6_a_function_probability.png)
+
+Peluang distribusi normal
+
+![6.a](images/6_a.png)
+
+Z1 didapat dari nilai terkecil hasil generate dan Z2 dari nilai terbesar generate. Untuk plot, rentang angka dari nilai terkecil hingga terbesar dari hasil generate dan dibagi membagi menjadi 50 titik diantaranya, frekuensi dari sebuah titik adalah banyaknya nilai hasil generate yang berada di antara titik tersebut dengan titik sebelumnya.
+
+b.
+
+![6.a](images/6_b.png)
+
+Histogram hasil generate 100 data dengan seed(0) dan breaks 50
+
+c.
+
+![6.a](images/6_c.png)
+
+Variansi dari hasil generate
