@@ -16,7 +16,7 @@ paste("P(X = 3) = ", mean(data == 3))
 
 #c
 
-# hasil dari poin b lebih kecil tetapi mendekati hasil poin a.
+# hasil dari poin b lebih kecil dari poin a tetapi mendekati hasil poin a.
 
 #d
 px <- data [ data %in% c(3)]
@@ -62,7 +62,6 @@ paste("variance: ", variance)
 
 #3
 l <- 4.5
-e <- exp(1)
 
 #a
 x <- 6
@@ -77,8 +76,9 @@ px <- data [ data %in% c(6)]
 hist(px, main = "X = 6")
 
 #c
-
-#Hasil poin b mendekati hasil poin a
+paste("a. P(X = 6) = ", chance)
+paste("b. P(X = 6) = ", sum(data == 6) / n)
+#Hasil poin b lebih kecil dari poin a tetapi mendekati hasil poin a
 
 #d
 mean <- 0
@@ -201,6 +201,6 @@ for (i in data)
 {
   t <- t + ((i - mean) ^ 2)
 }
-variance = sqrt(t / n)
+variance = t / n
 paste("variance: ", variance)
 
