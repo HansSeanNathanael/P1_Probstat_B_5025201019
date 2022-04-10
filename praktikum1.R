@@ -101,7 +101,9 @@ v <- 10
 x <- 2
 #a
 
-# pdf: 
+# pdf:
+chance <- dgamma(x = 2, shape = v/2, scale = 2)
+paste("P(X = 2) = ", chance)
 
 #b
 
@@ -150,7 +152,17 @@ hist(data)
 set.seed(1)
 n <- 100
 data <- rgamma(n = n, shape = 1, rate = l)
-paste("mean: ", mean(data))
+mean <- mean(data)
+paste("mean: ", mean)
+
+variance <- 0
+for (i in data)
+{
+  variance <- variance + ((i - mean) ^ 2)
+}
+variance <- variance / n
+paste("variance: ", variance)
+
 
 #6
 
